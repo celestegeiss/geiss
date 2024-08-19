@@ -1,0 +1,320 @@
+@font-face {
+  font-family: 'Museo7';
+  src: url('../myfonts/Museo-700.otf');
+  font-family: 'Museo5';
+  src: url('../myfonts/Museo-500.otf');
+  font-family: 'Museo3';
+  src: url('../myfonts/Museo-300.otf');
+  font-family: 'tituloss';
+  src: url('../myfonts/Sanchez-Regular.otf');
+  font-family: 'cuerpo';
+  src: url('../myfonts/KalunyPro-Thin.ttf');
+}
+
+ * {
+  font-weight: normal;
+
+ }
+
+body {
+  display: block;
+  margin: 0px;
+  background: #fff;
+  color: #444444;
+  font-family: "Bitter", sans-serif;
+
+/* INICIO > ENCABEZADO */
+.encabezado {
+  color: #ffffff;
+  margin: 0%;
+  text-align: center;
+}
+.cont-logo{
+  height:80px;
+padding-top: 2%;
+}
+.logo{
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+   margin: 0%;
+ }
+.contenido{
+  margin-top: 4%;
+}
+.element1, .element2, .element3, .element4{
+  display: inline-block;
+  margin-right: 25px;
+}
+.element11{
+  color:#036EA8;
+  font-weight: bold;
+  font-size: larger;
+}
+a{
+outline: none;
+text-decoration: none;
+padding: .5% .5% 0;
+color: rgb(173, 172, 172);
+font-size:15px;
+}
+a:hover {
+  color:#036EA8;
+  font-weight: bold;
+}
+/* INICIO > CAJAMAIN*/
+main {
+  background: linear-gradient(to bottom, #ffffff 0%, #dddee1 100%);
+  border-bottom: 1px solid rgba(43, 43, 43, 0.2);
+  padding: 3% 0% 0%;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+.maintxt{
+  /*width: 1200px;*/
+  padding-left: 11%;
+  padding-right: 11%;
+  padding-bottom: 2%;
+  text-align: center;
+  position: relative;
+  line-height: 1.7; /*espaciado letras*/
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-size: large;
+}
+.news{
+  padding: 3% 0% 8%;
+  
+  }
+  .element5{
+    background-color: rgba(221, 208, 89,0.5);
+    text-decoration: none;
+
+    text-align: center;
+    font-family: "Bitter", sans-serif;
+    color: #444444;
+    font-size: x-large;
+  }
+  .element5:hover {
+    color: #444444;
+    background-color: rgb(221, 208, 89);
+    font-weight: 300;
+  }
+/* INICIO > FOOTER*/
+footer {
+  background: #dddee1; /*color de fondo del footer*/
+  text-align: center;
+  margin-bottom: 0%;
+
+  }
+footer img {
+  width: 11%; 
+  margin-right: 10px; 
+
+}
+
+
+.cajacurso{
+
+  margin-top: 1%;
+
+  padding-top: 2%;
+  background: rgba(221, 222, 225,50%);      
+}
+.titulocurso{
+  font-size: large;
+  margin: 1rem;
+  margin-bottom: 0.5rem;
+  color:#036EA8;
+  font-weight: bold;
+}
+.carrera{
+  font-weight: bold;
+  margin: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0rem;
+}
+.docentes{
+  margin-right: 0.5rem;
+  margin-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-family: "Noto Sans Japanese", sans-serif;
+  font-size: small;
+}
+.descripcion{
+  margin-right: 6rem;
+  margin-left: 6rem;
+  font-family: "Noto Sans Japanese", sans-serif;
+  color: rgb(138, 137, 137);
+  font-size: 14px;
+}
+.fecha{
+  margin: 0.5rem;
+  margin-left: 1rem;
+  font-weight: bold;
+  padding-bottom: 2.5%;}
+
+/*INTEGRANTES*/
+.encabezado_integrantes{
+  font-size: 24px;
+  -webkit-column-span: all;
+  column-span: all;
+  padding-top: 5%;
+  text-align: center;
+}
+.LINK-PERS{
+  outline: none;
+  text-decoration: none;
+  padding: 8px 1px 0px;
+  color:#036EA8;
+  font-size:14px;
+  font-family: "Noto Sans Japanese", sans-serif;
+  }
+  .LINK-PERS:hover {
+    font-size:14px;
+    color:#036EA8;
+  }
+.cargar-integrante{
+  height: 150px;
+  display:flex;
+  margin-top: 0%;
+  margin-bottom: 10%;
+  align-content: center;
+}
+
+.foto, .datos{
+  display: inline-flex;
+}
+
+.nombre{
+  margin:auto;
+  font-size:18px;
+}
+.foto{
+  transform: scale(0.8)
+}
+.datos {
+  border-left: 2.5px solid rgb(207, 207, 207);
+  padding-right: 20px;
+  height: 100%;
+  padding-left: 7px;
+} 
+.columns {
+     display: inline-block; 
+    box-sizing: border-box;
+    margin: 1%;
+    padding: 2%;
+    padding-left: 20%;
+    -webkit-columns: 120px 2;
+    -moz-columns: 120px 2;
+    columns: 120px 2;
+    column-width: 180px;
+    column-gap: 100px;
+    *//*
+    margin: 1%;
+    padding: 2%;
+    padding-left: 1%;
+    -webkit-columns: 80px 3;
+    -moz-columns: 80px 3;
+    columns: 80px 3;
+    column-width: 80px;
+    column-gap: 100px;
+    /*
+    column-fill: balance;*/ 
+    break-inside: avoid;
+    font-size: 16px;
+  }
+/*PROYECTOS*/
+    .lista {
+      padding: 10px;
+      text-decoration: none;
+    }
+  .ulli {
+      /*background: rgba(3, 112, 170, 5%) ;*/
+      margin: 25px;    
+      list-style: none;
+    }
+   
+    .proy1{
+      background: rgba(221, 222, 225,50%);      
+      margin-bottom: 0.5%;
+      padding-top: 0.8%;
+      padding-bottom: 0.8%;
+      padding-left: 0.3%;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 0.9px;
+    }
+     .proy3{
+      font-family: "Noto Sans Japanese", sans-serif;
+      /*letter-spacing: 0.5px;*/
+      margin-bottom: 0.25%;
+      margin-top: 2%;
+      font-size: 16px;
+      font-weight: bold;
+    }   
+    .proy2{
+      font-size: 14px;
+      color: rgb(138, 137, 137);
+      font-family: "Noto Sans Japanese", sans-serif;
+      /*letter-spacing: 0.5px;*/
+      margin-top: 0.5%;
+      margin-bottom: 0.2%;
+    }
+    .proy4{
+          font-size: 14px;
+          
+          font-family: "Noto Sans Japanese", sans-serif;
+    margin-top: 0%;  
+    margin-bottom: 0%;
+    letter-spacing: 0.5px;
+          
+    }
+    .proy{
+      margin: 4%;
+      margin-top: 2%;
+    }
+
+/*NOVEDADES*/
+
+  /*PUBLICACIONES*/
+ .publi{
+    margin: 4%;
+    margin-top: 2%;
+    padding: 10px;
+
+  }
+
+.articulo {
+    /*background: rgba(3, 112, 170, 5%) ;*/
+    margin: 25px;   
+  
+  }
+  .art1{
+    background: rgba(221, 222, 225,50%);      
+    margin-bottom: 0.5%;
+    
+  }
+  .art2{
+    font-size: 0.92rem;
+    color: rgb(138, 137, 137);
+    font-family: "Noto Sans Japanese", sans-serif;
+    /*letter-spacing: 0.5px;*/
+
+  }
+  .art3{
+    font-size: 0.9rem;
+    margin-top: 0.3rem;  
+    margin-bottom: 0.2rem;
+    font-family: "Noto Sans Japanese", sans-serif;
+    letter-spacing: 0.5px;
+    font-style: italic;
+  }
+  .art4{
+    font-size: 0.92rem;
+    color: rgb(138, 137, 137);
+    font-family: "Noto Sans Japanese", sans-serif;
+    /*letter-spacing: 0.5px;*/
+    margin:0%;
+
+  }

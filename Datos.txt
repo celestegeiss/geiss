@@ -1,0 +1,62 @@
+GMAIL
+
+Nombre: Celeste
+Apellido: no puse
+dirección: geiss.uns.conicet@gmail.com
+contraseña: 784512geiss
+Mail de recuepero: sebastian.angelini@hotmail.com (se puede cambiar)
+
+GITHUB
+dirección de registro: geiss.uns.conicet@gmail.com
+contraseña: 784512geiss
+username: celestegeiss
+
+PAGINA
+https://celestegeiss.github.io/geiss/
+
+NOTA: El repositorio es GitHub, Es grtuito. Se puede pensar como si fuese un hosting (de hecho lo es)
+Si se quiere utilizar un dominio pago del estilo "www.geiss.com" se puede hacer 
+desde GitHub, previamente a haber comprado el dominio. Algunos de los registradores
+para hacer eso son: namecheap o GoDaddy o Google Domains. Fijate si el chabón
+anterior compró el dominio en alguno de esos u en otro, y ver las contraseñas y
+usernames para ver si se puede alojar ahí.
+
+NOTA2: El archivo PDF "detec" NO lo pude cargar al repositorio de GitHub porque es más
+grande que 25M, pero se puede comprimir un poco y se carga.
+
+NOTA3: Si querés hacer una actualización de la p´ágina, cambia los archivos y
+los volvés a subir al repositorio con los cambios ya hechos.
+
+
+
+
+
+¿Qué es GitHub?
+GitHub es una plataforma de desarrollo colaborativo que permite a los desarrolladores gestionar, almacenar
+y compartir proyectos de software, principalmente aquellos basados en código. Se basa en Git, un sistema
+de control de versiones que permite a los desarrolladores rastrear y administrar cambios en su código a lo largo del tiempo.
+
+GitHub proporciona una interfaz web y herramientas para facilitar el trabajo en equipo, el seguimiento 
+de errores, la revisión de código, la integración continua, y mucho más. Es ampliamente utilizado por
+desarrolladores de software, pero también es útil para cualquier tipo de proyecto que involucre archivos
+de texto (como documentación, diseño de páginas web, etc.).
+
+Características Claves de GitHub:
+Control de versiones: Gracias a Git, puedes hacer un seguimiento de cada cambio en tu proyecto, 
+ver quién hizo qué cambio y cuándo, y revertir cambios si es necesario.
+
+Repositorios: Los proyectos se almacenan en repositorios (repos) en GitHub.
+
+Colaboración: GitHub facilita la colaboración entre desarrolladores mediante "pull requests", donde 
+otros pueden sugerir cambios, y revisiones de código.
+
+GitHub Pages: Permite alojar sitios web estáticos directamente desde un repositorio. (esto fue lo que hicimos nosotros)
+(OJO! observar que solo es para páginas estáticas, o sea que no entiende PHP, sql y todo ese quilombo)
+
+Integraciones: GitHub se integra con muchas herramientas de desarrollo, automatización de pruebas, y despliegue.
+
+¿Qué es un Repositorio?
+Un repositorio (o "repo") es un espacio donde se almacena un proyecto en GitHub. Este repositorio contiene 
+todos los archivos relacionados con tu proyecto, así como el historial de cambios realizados en esos archivos. 
+Puedes pensar en un repositorio como una carpeta que contiene todo lo necesario para desarrollar y mantener un 
+proyecto, con el añadido de que también guarda un historial de versiones.

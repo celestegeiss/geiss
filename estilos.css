@@ -75,7 +75,7 @@ main {
   /*width: 1200px;*/
   padding-left: 11%;
   padding-right: 11%;
-  padding-bottom: 2%;
+  padding-bottom: 1%;
   text-align: center;
   position: relative;
   line-height: 1.7; /*espaciado letras*/
@@ -83,7 +83,7 @@ main {
   font-size: large;
 }
 .news{
-  padding: 3% 0% 8%;
+  padding: 2% 0% 8%;
   
   }
   .element5{

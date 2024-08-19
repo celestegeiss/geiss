@@ -78,9 +78,10 @@ main {
   padding-bottom: 1%;
   text-align: center;
   position: relative;
-  line-height: 1.7; /*espaciado letras*/
+  line-height: 1.9; /*espaciado letras*/
   font-family: "Noto Sans Japanese", sans-serif;
   font-size: large;
+  font--weight: bold;
 }
 .news{
   padding: 2% 0% 8%;
